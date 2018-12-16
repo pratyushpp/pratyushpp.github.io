@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Basic.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 80%;
+        height: 80%;
+    }
+    </style>
+</head>
+<body>
+
+    
+  
+       
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark  navbar-full ">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><i class="fa fa-fw fa-home"></i>HOME</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="WEBHTML.HTML">HTML </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">CSS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PHP</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">JAVA</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        MORE
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">MY SQL</a>
+        <a class="dropdown-item" href="#">JAVASCRIPT</a>
+        <a class="dropdown-item" href="#">DBMS</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fa fa-fw fa-user"></i>LOGIN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fa fa-fw fa-envelope"></i> CONTACT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fa fa-fw fa-search"></i>SEARCH</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="MAP.HTML">MAP</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>LEARNING SCHOOL</h1>
+  <p>is an educational website for learning web technologies online.Content includes tutorials and references relating to HTML, CSS, JavaScript, JSON, PHP, Python, AngularJS, SQL, Bootstrap, Node.js, jQuery, XQuery, AJAX, and XML.
+  </p> 
+</div>
+
+<div class="container">
+  <h3> DIALOG BOX</h3>
+\
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Refer
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">LEARNING</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          You will find tutorials of all languages.
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+        </div>
+     </div>
+    </div>
+  
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>HTML</h3>
+      <p> With HTML you can create your own Website..</p>
+      <p>This tutorial teaches you everything about HTML</p>
+      <p>  HTML is easy to learn - You will enjoy it. </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>CSS Tutorial</h3>
+      <p>CSS is a language that describes the style of an HTML document.</p>
+      <p>CSS describes how HTML elements should be displayed.</p>
+      <P> This tutorial will teach you CSS from basic to advanced.</P>
+    </div>
+    <div class="col-sm-4">
+      <h3>Bootstrap 4 Tutorial</h3>        
+      <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</br>
+
+            Bootstrap is completely free to download and use!</p>
+     
+    </div>
+  </div>
+</div>
+
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\PratyushPrakash\Desktop\html\ASSIGNMENT\HTML-FILES\logo.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\PratyushPrakash\Desktop\html\ASSIGNMENT\HTML-FILES\PHP.png" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\PratyushPrakash\Desktop\html\ASSIGNMENT\HTML-FILES\bootstrap-logo.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="container">
+    <p></p>
+    <p>CLICK <kbd>MAP</kbd> to open MAP.</p>
+  </div>
+
+
+<footer>
+  <nav class="navbars">
+          <a href="#" class="fa fa-facebook">FACEBOOK</a>
+          <a href="#" class="fa fa-twitter">TWITTER</a>
+          <a href="#" class="fa fa-google">GOOGLE</a>
+          <a href="#" class="fa fa-linkedin">LINEDIN</a>
+          <a href="#" class="fa fa-youtube">YOUTUBE</a>
+          <a href="#" class="fa fa-instagram">INSTAGRAM</a> 
+          <a href="#" class="fa fa-skype">SKYPE</a>
+          
+     </nav>
+</footer>
+   
+</body>
+</html>
